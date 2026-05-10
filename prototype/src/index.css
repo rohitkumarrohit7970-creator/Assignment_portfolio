@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --base-100: #FFFFFF;
+  --base-200: #F3F4F6;
+  --base-300: #E5E7EB;
+  --base-content: #1F2937;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  margin: 0;
+}
